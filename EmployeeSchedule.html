@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Employee Schedule</h1>
+    <table border="2">
+        <tr>
+            <th id="Day">Day</th>
+            <th id="Name">Employee Name</th>
+            <th id="Shift" colspan="2">Shift</th> <!--colspan used inside th or td tag to separate or create no of columns-->
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>Hari</td>
+            <td>Morning</td>
+            <td>Night</td>
+        </tr>
+        <tr>
+            <td>Barble</td>
+            <td colspan="2">FullDay</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Cyril</td>
+            <td colspan="2">HalfDay</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Wednesday</td>
+            <td>Vijay</td>
+            <td colspan="2">Morning</td>
+        </tr>
+        <tr>
+            <td>Dinesh</td>
+            <td colspan="2">Night</td>
+        </tr>
+    </table>
+</body>
+</html>
